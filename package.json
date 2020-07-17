@@ -1,0 +1,37 @@
+{
+  "name": "mongoose-setup",
+  "version": "0.0.0-development",
+  "description": "plugin for cleaner mongoose setups",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crsten/mongoose-setup.git"
+  },
+  "keywords": [
+    "mongoose",
+    "setup"
+  ],
+  "author": "car.jacobsen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crsten/mongoose-setup/issues"
+  },
+  "homepage": "https://github.com/crsten/mongoose-setup#readme",
+  "dependencies": {
+    "require-directory": "^2.1.1"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.2.0",
+    "semantic-release-cli": "^5.3.1",
+    "semantic-release": "^17.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
